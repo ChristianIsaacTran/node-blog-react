@@ -16,3 +16,5 @@
   and published the CSS reset file under @christiantran/utility-css-reset.
 
 - Imported the CSS reset file under the main.jsx to apply to the entire app.
+
+## test communication with Blog REST API with fetch() for blog info

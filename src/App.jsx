@@ -1,13 +1,13 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "./assets/vite.svg";
-import heroImg from "./assets/hero.png";
-import styles from"./App.module.css";
+import styles from "./App.module.css";
+import Homepage from "../components/homepage/Homepage";
 
-function App() {
-  const [count, setCount] = useState(0);
-
-  return <>Blog goes here LOL</>;
+const App = () => {
+  return (
+    <>
+      <Homepage />
+    </>
+  );
 }
 
 export default App;
