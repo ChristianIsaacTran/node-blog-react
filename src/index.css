@@ -1,0 +1,24 @@
+:root {
+  --grey-inner: rgb(7, 7, 7);
+  --grey-outer: rgb(29, 29, 29);
+}
+
+html {
+  height: 100vh;
+  width: 100vw;
+  background: radial-gradient(rgb(20, 20, 20) 0%, black 100%);
+}
+
+input {
+  border: 5px var(--grey-outer) solid;
+  border-radius: 30px;
+  padding: 0 30px;
+  color: white;
+  background-color: var(--grey-inner);
+  outline: 5px rgba(255, 0, 0, 0) solid;
+  transition: 2s outline;
+}
+
+input:focus {
+    outline: 5px white solid;
+}

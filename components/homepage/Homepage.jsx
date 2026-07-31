@@ -1,5 +1,6 @@
 import { useEffect } from "react";
-import Navbar from "../navbar/Navbar";
+import Login from "../login/Login";
+import styles from "./Homepage.module.css";
 
 const Homepage = () => {
   // do something external, like fetch requests to sync with react app
@@ -7,8 +8,12 @@ const Homepage = () => {
 
   return (
     <>
-      <Navbar />
-      This is test NOW
+      <main className={styles.main}>
+        <div className={styles.heroBox}>
+          <h1 className={styles.heroMsg}>Welcome to Mock Blog</h1>
+          <Login />
+        </div>
+      </main>
     </>
   );
 };

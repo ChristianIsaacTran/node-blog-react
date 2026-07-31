@@ -1,0 +1,21 @@
+.heroMsg {
+  text-align: center;
+}
+
+.heroBox {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  background-color: black;
+  border: 5px black solid;
+  color: white;
+  min-width: 80vw;
+  min-height: 80vh;
+}
+
+.main {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
