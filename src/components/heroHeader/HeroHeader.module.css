@@ -1,0 +1,11 @@
+.heroHeader {
+  color: white;
+  display: flex;
+  font-size: 2rem;
+  align-items: center;
+  margin-left: 130px;
+}
+
+.headerBox {
+  box-shadow: 0px 0px 15px 0px white;
+}

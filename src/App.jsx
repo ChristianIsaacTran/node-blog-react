@@ -1,13 +1,7 @@
-import { useState } from "react";
 import styles from "./App.module.css";
-import Homepage from "../components/homepage/Homepage";
 
 const App = () => {
-  return (
-    <>
-      <Homepage />
-    </>
-  );
+  return <></>;
 };
 
 export default App;

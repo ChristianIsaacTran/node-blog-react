@@ -1,0 +1,14 @@
+.heroFooter {
+  color: white;
+  min-height: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.footerBox {
+    display: flex;
+    justify-content: center;
+  box-shadow: 0px 0px 15px 0px white;
+}
+
+
